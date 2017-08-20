@@ -4,15 +4,11 @@
   "description": "Sim's chat app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sim Kieu",
   "license": "ISC",
-  "devDependencies": {
-      "budo": "^4.1.0"
-  },
   "dependencies": {
-    "simple-peer": "^5.12.1",
     "express": "*",
     "socket.io": "*"
   }

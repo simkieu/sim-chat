@@ -15,7 +15,7 @@ var express = require('express'),
 // app.use(express.static('styles'));
 // app.use("/styles", express.static(__dirname + "/styles"));
 console.log('Server running...');
-server.listen(9966);
+server.listen(3000);
 app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
 });
