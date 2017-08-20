@@ -2,7 +2,7 @@
   "name": "sim-chat",
   "version": "1.0.0",
   "description": "Sim's chat app",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
