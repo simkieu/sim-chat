@@ -5,6 +5,9 @@
   "main": "server.js",
   "author": "Sim Kieu",
   "license": "ISC",
+  "scripts": {
+      "start": "node index"
+  },
   "dependencies": {
     "express": "*",
     "socket.io": "*"
