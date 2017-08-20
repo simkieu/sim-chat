@@ -4,7 +4,7 @@ var Peer = require('simple-peer'),
         trickle: false
     }),
     // express = require('express'),
-    // app = express(),
+    app = express(),
     // server = require('http').createServer(app),
     // io = require('socket.io').listen(server),
     users = [],
@@ -14,8 +14,8 @@ peer.on('signal', function(data) {
 })
 // app.use(express.static('styles'));
 // app.use("/styles", express.static(__dirname + "/styles"));
-// console.log('Server running...');
+console.log('Server running...');
 // server.listen(process.env.PORT || 3000);
-// app.get('/', function(req, res) {
-//     res.sendFile(__dirname + '/index.html');
-// });
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/index.html');
+});
