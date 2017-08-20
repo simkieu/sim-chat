@@ -2,7 +2,7 @@
 <header>
     <title>Sim Messenger</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
+    <link rel="stylesheet" type="text/css" href ="styles/styles.css">
 </header>
 
 <body>
@@ -27,8 +27,14 @@
                 </form>
             </div>
         </div>
+        <div class="video-chat">
+            <label>Your ID:</label><br/>
+            <textarea id="yourID" class="textbox"></textarea><br/>
+            <label>Other ID</label><br/>
+            <textarea id="otherID"></textarea>
+            <button id="connect">Connect</button>
+        </div>
     </div>
-    <script src="bundle.js" charset="utf-8"></script>
 </body>
 
 </html>
