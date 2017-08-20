@@ -2,7 +2,7 @@
   "name": "sim-chat",
   "version": "1.0.0",
   "description": "Sim's chat app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
       "socket.io": "*",
-      "express": "*"
+      "express": "*",
+      "simple-peer": "^5.11.4"
   }
 }
