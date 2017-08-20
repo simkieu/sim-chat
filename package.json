@@ -4,7 +4,7 @@
   "description": "Sim's chat app",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js"
+    "start": "node index.js"
   },
   "author": "Sim Kieu",
   "license": "ISC",
